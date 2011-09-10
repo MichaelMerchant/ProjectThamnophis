@@ -4,6 +4,19 @@ Introduction
 This is the repository containing the Android game that is in development.
 
 ================
+Installation
+================
+Installation of the Android SDK, as well as the ADT Plugin for the Eclipse IDE is required.
+
+Links are provided below, which include downloads and instructions.
+
+Android SDK:
+http://developer.android.com/sdk/index.html
+
+ADT Plugin:
+http://developer.android.com/sdk/eclipse-adt.html#installing
+
+================
 Game Design Doc
 ================
 https://docs.google.com/document/d/1CvcVuSpPNQpmORcZ9nOqj5J7EHn8yUdc1BAlphS-OP0/edit?hl=en_US
