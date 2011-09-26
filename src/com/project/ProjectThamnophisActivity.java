@@ -57,7 +57,7 @@ public class ProjectThamnophisActivity extends Activity {
         highScores.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 // Switch to the high scores activity
-            	Intent myIntent2 = new Intent(v.getContext(), HighScoresActivity.class);
+            	Intent myIntent2 = new Intent(v.getContext(), ScoresActivity.class);
          //       startActivityForResult(myIntent, 0);
             	startActivity(myIntent2);
             }

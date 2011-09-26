@@ -16,8 +16,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name = "com.project.InstructionsActivity" android:label="Instructions"> </activity>
-        <activity android:name = "com.project.HighScoresActivity" android:label="HighScores"> </activity>
+        <activity android:name = "com.project.InstructionsActivity" android:label="Help"> </activity>
+        <activity android:name = "com.project.ScoresActivity" android:label="High Scores"> </activity>
         <activity android:name = "com.project.CreditsActivity" android:label="Credits"> </activity>
     </application>
 </manifest>

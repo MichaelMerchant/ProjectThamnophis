@@ -5,7 +5,7 @@
     android:layout_height="fill_parent"
     >
     <LinearLayout android:id="@+id/linearLayout1" android:layout_height="wrap_content" android:layout_width="match_parent" android:orientation="vertical">
-        <TextView android:id="@+id/textView1" android:layout_height="wrap_content" android:text="TextView" android:textAppearance="?android:attr/textAppearanceLarge" android:layout_width="wrap_content" android:layout_gravity="center"></TextView>
+        <TextView android:textAppearance="?android:attr/textAppearanceLarge" android:id="@+id/textView1" android:layout_height="wrap_content" android:layout_gravity="center" android:layout_width="wrap_content" android:text="@string/game_title"></TextView>
     </LinearLayout>
     <LinearLayout android:id="@+id/linearLayout2" android:layout_width="match_parent" android:layout_height="match_parent" android:weightSum="1">
         <ImageView android:id="@+id/imageView1" android:src="@drawable/icon" android:layout_width="222dp" android:layout_height="222dp" android:layout_gravity="center_vertical"></ImageView>
@@ -27,24 +27,16 @@
     />
     <Button android:id="@+id/start"
     android:layout_width="fill_parent"
-    android:layout_height="wrap_content"
-    android:text="Button 1"
-    />
+    android:layout_height="wrap_content" android:text="@string/start_game"/>
     <Button android:id="@+id/help"
     android:layout_width="fill_parent"
-    android:layout_height="wrap_content"
-    android:text="Button 2"
-    />
+    android:layout_height="wrap_content" android:text="@string/instructions"/>
     <Button android:id="@+id/highScores"
     android:layout_width="fill_parent"
-    android:layout_height="wrap_content"
-    android:text="Button 3"
-    />
+    android:layout_height="wrap_content" android:text="@string/high_score"/>
     <Button android:id="@+id/credits"
     android:layout_width="fill_parent"
-    android:layout_height="wrap_content"
-    android:text="Button 4"
-    />
+    android:layout_height="wrap_content" android:text="@string/credits"/>
     <Button android:id="@+id/button5"
     android:layout_width="fill_parent"
     android:layout_height="wrap_content"
