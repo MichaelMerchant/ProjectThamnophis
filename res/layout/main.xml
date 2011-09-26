@@ -4,9 +4,53 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     >
-<TextView  
-    android:layout_width="fill_parent" 
-    android:layout_height="wrap_content" 
-    android:text="@string/hello"
+    <LinearLayout android:id="@+id/linearLayout1" android:layout_height="wrap_content" android:layout_width="match_parent" android:orientation="vertical">
+        <TextView android:id="@+id/textView1" android:layout_height="wrap_content" android:text="TextView" android:textAppearance="?android:attr/textAppearanceLarge" android:layout_width="wrap_content" android:layout_gravity="center"></TextView>
+    </LinearLayout>
+    <LinearLayout android:id="@+id/linearLayout2" android:layout_width="match_parent" android:layout_height="match_parent" android:weightSum="1">
+        <ImageView android:id="@+id/imageView1" android:src="@drawable/icon" android:layout_width="222dp" android:layout_height="222dp" android:layout_gravity="center_vertical"></ImageView>
+        <LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    >
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <Button android:id="@+id/button0"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="Button 0"
     />
+    <Button android:id="@+id/start"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="Button 1"
+    />
+    <Button android:id="@+id/help"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="Button 2"
+    />
+    <Button android:id="@+id/highScores"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="Button 3"
+    />
+    <Button android:id="@+id/credits"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="Button 4"
+    />
+    <Button android:id="@+id/button5"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="Button 5"
+    />
+</LinearLayout>
+</LinearLayout>
+    </LinearLayout>
 </LinearLayout>
