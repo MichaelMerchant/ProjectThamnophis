@@ -17,7 +17,7 @@
             </intent-filter>
         </activity>
         <activity android:name = "com.project.InstructionsActivity" android:label="Help"> </activity>
-        <activity android:name = "com.project.ScoresActivity" android:label="High Scores"> </activity>
+        <activity android:name = "com.project.HighScoresActivity" android:label="High Scores"> </activity>
         <activity android:name = "com.project.CreditsActivity" android:label="Credits"> </activity>
     </application>
 </manifest>
